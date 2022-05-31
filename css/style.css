@@ -1,0 +1,38 @@
+:root {
+    --ms_main-color1: #1ABC9C;
+    --ms_main-color2: #FFF;
+    --ms_main-color3: #2C3E50; 
+}
+
+.l1_b {
+    border: 1px dashed red;
+}
+
+.l2_b {
+    border: 1px dashed blue;
+}
+
+
+.bgc-1 {
+    background-color: var(--ms_main-color1)
+}
+
+.bgc-2 {
+    background-color: var(--ms_main-color2);
+}
+
+.bgc-3 {
+    background-color: var(--ms_main-color3);
+}
+
+.line {
+    display: inline-block;
+    height: 1px;
+    background-color: black;
+    width: calc(100% / 8);
+}
+
+#avatar {
+    object-fit: cover;
+    max-width: 200px;
+}
