@@ -2,6 +2,7 @@
     --ms_main-color1: #1ABC9C;
     --ms_main-color2: #FFF;
     --ms_main-color3: #2C3E50; 
+    --ms_main-color4: #3A546D;
 }
 
 .bgc-1 {
@@ -14,6 +15,10 @@
 
 .bgc-3 {
     background-color: var(--ms_main-color3);
+}
+
+.bgc-4 {
+    background-color: var(--ms_main-color4);
 }
 
 
